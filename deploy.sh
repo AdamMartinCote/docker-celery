@@ -3,7 +3,7 @@ set -e
 
 ENV_TYPE=prod
 BUILD_TAG=hitman-$ENV_TYPE-$BUILD_NUMBER
-REGISTRY=ghcr.io/john-doherty01
+REGISTRY=ghcr.io/adammartincote
 
 echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
 

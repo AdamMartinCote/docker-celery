@@ -27,7 +27,7 @@ spec:
         - name: dockerconfigjson-github-com
       containers:
         - name: hitman-rest-api-docker-image
-          image: ghcr.io/john-doherty01/hitman-rest-api:VERSION
+          image: ghcr.io/adammartincote/hitman-rest-api:VERSION
           imagePullPolicy: IfNotPresent
           resources:
             requests:

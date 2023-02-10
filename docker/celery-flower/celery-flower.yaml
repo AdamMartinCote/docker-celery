@@ -25,7 +25,7 @@ spec:
         - name: dockerconfigjson-github-com
       containers:
         - name: hitman-celery-flower-image
-          image: ghcr.io/john-doherty01/hitman-celery-flower:VERSION
+          image: ghcr.io/adammartincote/hitman-celery-flower:VERSION
           imagePullPolicy: IfNotPresent
           resources:
             requests:

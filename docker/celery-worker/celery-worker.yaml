@@ -25,7 +25,7 @@ spec:
         - name: dockerconfigjson-github-com
       containers:
         - name: hitman-celery-worker-docker-image
-          image: ghcr.io/john-doherty01/hitman-celery-worker:VERSION
+          image: ghcr.io/adammartincote/hitman-celery-worker:VERSION
           imagePullPolicy: IfNotPresent
           resources:
             requests:

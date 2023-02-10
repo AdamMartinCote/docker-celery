@@ -27,7 +27,7 @@ spec:
         - name: dockerconfigjson-github-com
       containers:
         - name: hitman-webapp-docker-image
-          image: ghcr.io/john-doherty01/hitman-webapp:VERSION
+          image: ghcr.io/adammartincote/hitman-webapp:VERSION
           imagePullPolicy: IfNotPresent
           resources:
             requests:
